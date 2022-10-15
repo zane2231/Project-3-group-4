@@ -17,9 +17,9 @@ After the datasets were acquired, we quickly went to cleaning and sorting them t
 On the other side of this, a dashboard was being made to store the created graphs into. 
 This was done through This dashboard shows that the __. **talk about the graphs shown**. **talk about the statistics**.
 
-	Following this, the dashboard was loaded onto a platform called Heroku, through this platform, the dashboard is able to go live for anyone to see it and to make informed choices through it. **talk about process**
+Following this, the dashboard was loaded onto a platform called Heroku, through this platform, the dashboard is able to go live for anyone to see it and to make informed choices through it. **talk about process**
 
-	Finally at the end of this project we were able to gather that Texas _
+Finally at the end of this project we were able to gather that Texas _.
 
 Personal insights/learned: Throughout this project we have learned an ample amount of data relating to Texas voting statistics. For one, while the data is stored in mass excel forms, it is not very clean for the average reader to understand. It must be redone in order to show a clear and concise retelling of the data.
 
@@ -51,6 +51,3 @@ Personal insights/learned: Throughout this project we have learned an ample amou
 
 
    
-    
-
-
