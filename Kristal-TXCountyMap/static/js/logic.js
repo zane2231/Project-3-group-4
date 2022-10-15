@@ -13,7 +13,7 @@ var myMap = L.map("map", {
   //adding the color squares
   legend.onAdd = function(map) {
       var div = L.DomUtil.create("div", "legend")
-      div.innerHTML += '<h1><span>Texas County: 2020 Election Winners</span><br></h1>';
+      div.innerHTML += '<h1><span>Texas Counties: 2020 Election Winners</span><br></h1>';
       div.innerHTML += '<i style="background: red"></i><span>REPUBLICAN</span><br>';
       div.innerHTML += '<i style="background: blue"></i><span>DEMOCRAT</span><br>';
       return div;
