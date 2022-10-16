@@ -23,7 +23,7 @@ Finally at the end of this project we were able to gather that Texas _.
 
 Personal insights/learned: Throughout this project we have learned an ample amount of data relating to Texas voting statistics. For one, while the data is stored in mass excel forms, it is not very clean for the average reader to understand. It must be redone in order to show a clear and concise retelling of the data.
 
-  
+created a custom map using maptile to ouline maps for Austin Precinct. Added fullscreen function using leaflet pugin. using QGIS software to merge the geojson data with csv  and create a new geojson to hold all data for map.used plotly to represtent bar chart and pie chart. used chloropath leaflet method to show colors and using numbers as a varible to set color. creating an html grid to hold all data in its own classes. 
 <br></br>
 
 
@@ -36,6 +36,7 @@ Personal insights/learned: Throughout this project we have learned an ample amou
 <li>https://www.politico.com/2020-election/results/texas/</li>
 <li>https://results.texas-election.com/reports</li>
 <li>https://www.ksat.com/vote-2020/2020/10/29/here-are-all-of-the-election-day-polling-sites-in-bexar-county-where-voters-can-choose-to-vote/</li>
+  
 </ul>
 
 
@@ -47,6 +48,10 @@ Personal insights/learned: Throughout this project we have learned an ample amou
 <li>https://www.storybench.org/how-to-build-an-interactive-county-level-map-like-the-new-york-times/</li>
 <li>https://latinamericanscience.carto.com/me?utm_source=Footer_Link&utm_medium=referral&utm_campaign=Embed_v1&utm_content=latinamericanscience</li>
 <li>https://gis-txdot.opendata.arcgis.com/datasets/9b2eb7d232584572ad53bad41c76b04d_0/explore?location=31.007051%2C-100.049428%2C6.43</li>
+<li>https://qgis.org/en/site/</li>
+<li>https://github.com/Leaflet/Leaflet.fullscreen</li>
+<li>https://plotly.com/</li>
+  
 </ul>
 
 
