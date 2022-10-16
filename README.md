@@ -1,5 +1,5 @@
 <h1> <p align="center">  Texas Voting Database  </p> </h1>
-
+<h1> <p align="center">To visit website 'County Data &copy; <a href="https://results.texas-election.com/reports/">Texas Election Results</a>'  </p> </h1>
 Proposal: We are making a database for Texans to reference for information on voting statistics in Texas. This database will include a map with voting locations and general stats about Texas voters. 
 
 Target Audience: Texan voters, educational institutions, lawmakers.
