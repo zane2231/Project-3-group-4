@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/style.css">
+  <link href='./static/fullscreen/leaflet.fullscreen.css' rel='stylesheet' />
+	<script src='./static/fullscreen/Leaflet.fullscreen.min.js'></script>
+  <title>Texas Counties</title>
+</head>
+<body1>
+  <nav class="navbar">
+      <div class="container">
+        <div>
+          <h1>Texas Votes</h1>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="#"></a>
+            </li>
+            <li>
+              <a href="DashbardTexasCounty.html"class="active">Texas Countys</a>
+            </li>
+            <li>
+              <a href="index.html" target="_blank">TMAP</index></a>
+            </li>
+            <li>
+              <a href="DashbardTravisCounty.html">Travis County</a>
+            </li>
+            <li>
+              <a href="DashbardAustinCounty.html">Austin Count Precints</a>
+            </li>
+          </ul>
+          <ul class="options">
+
+              </span>
+            </a></li>
+            <li><a href="https://github.com/ChloeValverde" target="_blank">
+              <img src="https://ca.slack-edge.com/T03E47BBE95-U03JM9Z508K-6352be3d71d4-512" alt="user" class="profile-img">
+            </a></li>
+
+            </a></li>
+          <li><a href="https://github.com/zane2231" target="_blank">
+            <img src="https://ca.slack-edge.com/T03E47BBE95-U03KDPJ0LCQ-eabe0aea990d-512" alt="user" class="profile-img">
+          </a></li>
+
+        </a></li>
+        <li><a href="https://github.com/kconcepcion" target="_blank">
+          <img src="https://ca.slack-edge.com/T03E47BBE95-U03JQ6LC9AQ-aca0b6916dc3-512" alt="user" class="profile-img">
+        </a></li>
+          
+      </a></li>
+      <li><a href="https://github.com/Shwetbaba"target="_blank">
+        <img src="https://ca.slack-edge.com/T03E47BBE95-U03JNSD6WLB-d5355e1c8000-512" alt="user" class="profile-img">
+      </a></li>
+         
+          </ul>
+        </div>
+        </div> 
+        <div class="menu-btn">
+          <span class="material-icons">
+            
+          </span>
+        </div>
+      </div>
+    </nav>
+
+      <a href="">
+        <span class="material-icons">
+          
+        </span>
+        <span></span>
+        </a>
+      </li>   
+      <li>
+      <a href="">
+        <span class="material-icons">
+          
+        </span>
+        <span></span>
+          </a>
+      </li>
+    </ul>
+
+    </div>
+    </div>
+    </div>
+  </nav>
+
+  <main class="dashboard">
+    
+    <div class="panel list">
+
+      <li>
+        <h2 class="person">County Name</h2>
+        <span class="no_books">DEM</span>
+        <span class="no_pages">REP</span>
+      </li>
+    
+    </div>
+    
+    <div id="barChart"></div>
+    
+    
+    
+ 
+       
+          <div class="goal-title">
+            <!-- <h4>Monthly</h4>
+            <h4>2,450$</h4> -->
+          </div>
+        <small></small>  
+        </div>
+      </div>
+     
+        </div>
+      </div>
+    </div>
+    
+   
+    
+    <div id="pieChart"></div>
+    
+    <div class="panel list">
+      <li>
+        <h2>Party</h2>
+        <span>Votes</span>
+      </li>
+      <li>
+        <h4>DEM</h4>
+        <span>5,259,126</span>
+      </li>
+      <li>
+        <h4>REP</h4>
+        <span>5,890,347</span>
+      </li>
+    </div>
+    
+    <div class="panel text text-vertical">
+      <h1>Fun Facts</h1>
+      <p></p>
+      <ol>
+        <li class="facts"></liclass>Overall, 158.4 million Americans voted in the presidential election, more than 21 million more than in 2016. The state with the largest raw vote increase over 2016 was Hawaii, with a 34 percent surge. The state with the smallest increase was North Dakota, with a five percent increase.</li>
+        <p></p>
+        <li class="facts"></liclass>Tea</li>
+        <li class="facts"></liclass>Milk</li>
+      </ol>  
+      <small></small>
+     
+    </div>
+    <head>
+     <div class="panel text text-horizontal">
+      
+        
+        <title>Texas Counties</title>
+        
+        <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+      
+          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
+          <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+          <link href='./static/fullscreen/leaflet.fullscreen.css' rel='stylesheet' />
+          <script src='./static/fullscreen/Leaflet.fullscreen.min.js'></script>
+        <style>
+          html, body {
+            height: 100%;
+            margin: 0;
+          }
+          .leaflet-container {
+            height: 400px;
+            width: 900px;
+            max-width: 100%;
+            max-height: 100%;
+          }
+        </style>
+      
+        <style>#map {width:100%; height:100%;}
+      .info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: rgb(255, 255, 255); }
+      .legend { text-align: left; line-height: 18px; color: rgb(0, 0, 0); } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
+      </head>
+      <body>
+      
+      <div id='map'></div>
+      
+      <script type="text/javascript" src="./static/js/Texas_map.js"></script>
+      
+      <script type="text/javascript">
+      
+        // var map = L.map('map').setView([31, -100.0059], 5);
+   
+        var map = L.map('map', {
+        fullscreenControl: {
+            pseudoFullscreen: false
+        }
+
+      }).setView([31, -100.0059], 6);
+  
+
+      
+        var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19,
+          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+      
+        // control that shows state info on hover
+        var info = L.control();
+      
+        info.onAdd = function (map) {
+          this._div = L.DomUtil.create('div', 'info');
+          this.update();
+          return this._div;
+        };
+      
+        info.update = function (props) {
+          this._div.innerHTML = '<h4>Texas Counties</h4>' +  (props ?
+            '<b>' + props.CNTY_NM + '</b><br />' + props.Texas_Counties_V3_Final_REPUBLICAN+ ' REP Votes, '+ props.Texas_Counties_V3_Final_DEMOCRATIC + ' DEM Votes ' : 'Hover over a state');
+        };
+      
+        info.addTo(map);
+      
+      
+        // get color depending on population density value
+        function getColor(d) {
+          return d > 50   ? '#c13232' :
+            d > 10   ? '#2e4fd2' : '#2e4fd2';
+        }
+      
+        function style(feature) {
+          return {
+            weight: 2,
+            opacity: 1,
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.8,
+            fillColor: getColor(feature.properties.Texas_Counties_V3_Final_COLOR)
+            
+      
+          };
+        }
+      
+        function highlightFeature(e) {
+          var layer = e.target;
+      
+          layer.setStyle({
+            weight: 5,
+            color: '#666',
+            dashArray: '',
+            fillOpacity: 0.7
+          });
+      
+          if (!L.Browser.opera && !L.Browser.edge) {
+            layer.bringToFront();
+          }
+      
+          info.update(layer.feature.properties);
+        }
+      
+        var geojson;
+      
+        function resetHighlight(e) {
+          geojson.resetStyle(e.target);
+          info.update();
+        }
+      
+        function zoomToFeature(e) {
+          map.fitBounds(e.target.getBounds());
+        }
+      
+        function onEachFeature(feature, layer) {
+          layer.on({
+            mouseover: highlightFeature,
+            mouseout: resetHighlight,
+            click: zoomToFeature
+          });
+        }
+      
+        /* global statesData */
+        geojson = L.geoJson(County, {
+          style: style,
+          onEachFeature: onEachFeature
+        }).addTo(map);
+      
+        map.attributionControl.addAttribution('County Data &copy; <a href="https://results.texas-election.com/reports/">Texas Election Results</a>');
+      
+      
+
+        var legend = L.control({position:"bottomright"});
+      
+      //adding the color squares
+      legend.onAdd = function(map) {
+        var div = L.DomUtil.create("div", "legend")
+        
+        div.innerHTML += '<i style="background: red"></i><span>REPUBLICAN</span><br>';
+        div.innerHTML += '<i style="background: blue"></i><span>DEMOCRAT</span><br>';
+        return div;
+        
+      };
+      legend.addTo(map);
+      
+      
+      </script>
+      
+      
+      
+      </body>
+      </html>
+      
+    
+      </body>
+    </html>
+    </div>
+    
+    
+    
+   
+    
+ 
+  </main>
+  
+  <script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+  <script src="./static/js/Texas_Counties_Plotly.js"></script>
+</body1>
+</html>
