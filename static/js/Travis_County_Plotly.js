@@ -1330,7 +1330,7 @@ yaxis: {
 
 }, 
   title: {
-    text:'Texas Votes',
+    text:'Travis Votes',
     font: {
       color: '#fcfdff'}
   },
