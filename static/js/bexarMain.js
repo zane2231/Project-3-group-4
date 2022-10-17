@@ -3868,7 +3868,7 @@ const barChartTrace1 = {
   name: 'REP',
   type: 'bar',
   marker: {
-    color: '#3358ea',
+    color: '#c13232',
   }
 };
 
@@ -3883,7 +3883,7 @@ const barChartTrace2 = {
   name: 'DEM',
   type: 'bar',
   marker: {
-    color: '#c13232',
+    color: '#3358ea',
   }
 };
 
@@ -3944,7 +3944,7 @@ const pieChartData = [{
 const pieChartLayout = {
   paper_bgcolor: '#172042',
   plot_bgcolor: '#172042',
-  piecolorway: ['#c13232', '#2e4fd2'],
+  piecolorway: ['#2e4fd2', '#c13232'],
   showlegend: true,
   title: {
     text:'Bexar County Votes',
