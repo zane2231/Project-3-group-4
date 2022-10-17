@@ -3912,7 +3912,7 @@ const layout = {
     color: 'rgb(255, 255, 255)'
   }}, 
 yaxis: {
-  title: 'Texas Votes By Party',
+  title: 'Bexar Votes By Party',
   titlefont: {
     size: 12, 
     color: 'rgb(255, 255, 255)'
