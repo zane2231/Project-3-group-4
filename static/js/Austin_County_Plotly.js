@@ -148,20 +148,43 @@ const layout = {
   paper_bgcolor: '#172042',
   plot_bgcolor: '#172042',
   showlegend: true,
-  
   margin: {
     l: 60,
     r: 60,
     b: 60,
     t: 60,
-    pad: 2
+    pad: 3
+
   },
+  legend: {
+    x: 0, 
+    y: 1.0, 
+    bgcolor: 'rgba(255, 255, 255, 0)',
+    bordercolor: 'rgba(255, 255, 255)'
+    
+  }, 
+  xaxis: {tickfont: {
+    size: 12, 
+    color: 'rgb(255, 255, 255)'
+  }}, 
+yaxis: {
+  title: 'Texas Votes By Party',
+  titlefont: {
+    size: 12, 
+    color: 'rgb(255, 255, 255)'
+  }, 
+  tickfont: {
+    size: 14, 
+    color: 'rgb(255, 255, 255)'
+  }
+
+}, 
   title: {
-    text:'Austin County Votes',
+    text:'Texas Votes',
     font: {
-      color: '#edeffa'}
+      color: '#fcfdff'}
   },
-  
+
 };
 
 Plotly.newPlot('barChart', barChartData, layout, config);
