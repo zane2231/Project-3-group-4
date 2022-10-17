@@ -21,7 +21,7 @@ Finally at the end of this project we were able to gather that even though the p
 
 Personal insights/learned: Throughout this project we have learned an ample amount of data relating to Texas voting statistics. For one, while the data is stored in mass excel forms, it is not very clean for the average reader to understand. It must be redone in order to show a clear and concise retelling of the data.
 
-We created a custom map using maptile and geojson data avaialble publically to ouline maps for Bexar county, Travis county and Austin county by Precinct. We also Added fullscreen function using leaflet pugin. We then used QGIS software to merge the geojson data with csv and created a new geojson to hold all data for the map After this, we used plotly to represtent bar chart and pie chart and used a chloropath leaflet method to show colors. Numbers were used as a varible to set color. And finally creating an html grid to hold all data in its own classes. 
+We created a custom map using maptile and geojson data available publically to ouline maps for Bexar county, Travis county and Austin county by Precinct. We also Added fullscreen function using leaflet pugin. We then used QGIS software to merge the geojson data with csv and created a new geojson to hold all data for the map After this, we used plotly to represtent bar chart and pie chart and used a chloropath leaflet method to show colors. Numbers were used as a varible to set color. And finally creating an html grid to hold all data in its own classes. 
 <br></br>
 
 
