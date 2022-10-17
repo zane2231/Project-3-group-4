@@ -23,10 +23,10 @@
               <a href="#"></a>
             </li>
             <li>
-              <a href="DashbardTexasCounty.html"class="active">Texas Countys</a>
+              <a href="DashbardTexasCounty.html">Texas Countys</a>
             </li>
             <li>
-              <!-- <a href="index.html" target="_blank">TMAP</index></a> -->
+              <a href="DashbardBexarCounty.html"class="active">Travis County</a>
             </li>
             <li>
               <a href="DashbardTravisCounty.html">Travis County</a>
@@ -132,11 +132,11 @@
       </li>
       <li>
         <h4>DEM</h4>
-        <span>5,259,126</span>
+        <span>447,447</span>
       </li>
       <li>
         <h4>REP</h4>
-        <span>5,890,347</span>
+        <span>308,618</span>
       </li>
     </div>
     
@@ -216,7 +216,7 @@
       
         info.update = function (props) {
           this._div.innerHTML = '<h4>Texas Counties</h4>' +  (props ?
-            '<b>' + props.Bexar_County_CSVV1_Precint + '</b><br />' + props.Bexar_County_CSVV1_Trump+ ' REP Votes, '+ props.Bexar_County_CSVV1_Biden + ' DEM Votes ' : 'move cursor on precincts');
+            '<b>' + props.Bexar_County_CSVV1_Precint + '</b><br />' + props.Bexar_County_CSVV1_Trump+ ' REP Votes, '+ props.Bexar_County_CSVV1_Biden + ' DEM Votes ' : 'Hover over a state');
         };
       
         info.addTo(map);
