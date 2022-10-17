@@ -93,7 +93,7 @@
     <div class="panel list">
 
       <li>
-        <h2 class="person">County Name</h2>
+        <h2 class="person">Precincts</h2>
         <span class="no_books">DEM</span>
         <span class="no_pages">REP</span>
       </li>
@@ -206,8 +206,8 @@
       };
     
       info.update = function (props) {
-        this._div.innerHTML = '<h4>Texas Counties</h4>' +  (props ?
-          '<b>' + props.CNTY_NM + '</b><br />' + props.Travis_County_V1_Rep+ ' REP Votes, '+ props.Travis_County_V1_Dem + ' DEM Votes ' : 'move cursor on precincts');
+        this._div.innerHTML = '<h4>Precincts</h4>' +  (props ?
+          '<b>' + props.CNTY_NM + '</b><br />' + props.Travis_County_V1_Rep+ ' REP Votes, '+ props.Travis_County_V1_Dem + ' DEM Votes ' : 'Move Cursor over precinct');
       };
     
       info.addTo(map);
@@ -274,7 +274,7 @@
         onEachFeature: onEachFeature
       }).addTo(map);
     
-      map.attributionControl.addAttribution('Travis County &copy; <a href="https://github.com/Charlie-Henry/Travis_County_Turnout">Texas Election Results</a>');
+      map.attributionControl.addAttribution('Travis County &copy; <a href="https://drive.google.com/drive/folders/1vxIpkpMF_Io93hHWv9l5o6c4zfQr8H1t?usp=sharing">Travis Election Results</a>');
     
     
 
