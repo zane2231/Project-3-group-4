@@ -50,6 +50,7 @@ We created a custom map using maptile and geojson data available publically to o
 <li>https://github.com/Leaflet/Leaflet.fullscreen</li>
 <li>https://plotly.com/</li>
 <li>https://github.com/Charlie-Henry/Travis_County_Turnout</li>
+<li>https://www.washingtonexaminer.com/opinion/100-facts-about-the-2020-presidential-election</li>
 </ul>
 
 
