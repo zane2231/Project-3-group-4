@@ -96,7 +96,7 @@
     <div class="panel list">
 
       <li>
-        <h2 class="person">Precincts</h2>
+        <h2 class="person">County Name</h2>
         <span class="no_books">DEM</span>
         <span class="no_pages">REP</span>
       </li>
@@ -216,7 +216,7 @@
       
         info.update = function (props) {
           this._div.innerHTML = '<h4>Precincts</h4>' +  (props ?
-            '<b>' + props.Bexar_County_CSVV1_Precint + '</b><br />' + props.Bexar_County_CSVV1_Trump+ ' REP Votes, '+ props.Bexar_County_CSVV1_Biden + ' DEM Votes ' : 'Move Cursor over precinct');
+            '<b>' + props.NAME + '</b><br />' + props.Bexar_County_CSVV1_Trump+ ' REP Votes, '+ props.Bexar_County_CSVV1_Biden + ' DEM Votes ' : 'Move Cursor over precinct');
         };
       
         info.addTo(map);
