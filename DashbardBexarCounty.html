@@ -215,8 +215,8 @@
         };
       
         info.update = function (props) {
-          this._div.innerHTML = '<h4>Texas Counties</h4>' +  (props ?
-            '<b>' + props.Bexar_County_CSVV1_Precint + '</b><br />' + props.Bexar_County_CSVV1_Trump+ ' REP Votes, '+ props.Bexar_County_CSVV1_Biden + ' DEM Votes ' : 'Hover over a state');
+          this._div.innerHTML = '<h4>Precincts</h4>' +  (props ?
+            '<b>' + props.Bexar_County_CSVV1_Precint + '</b><br />' + props.Bexar_County_CSVV1_Trump+ ' REP Votes, '+ props.Bexar_County_CSVV1_Biden + ' DEM Votes ' : 'Move Cursor over precinct');
         };
       
         info.addTo(map);
@@ -284,7 +284,7 @@
           onEachFeature: onEachFeature
         }).addTo(map);
       
-        map.attributionControl.addAttribution('County Data &copy; <a href="https://results.texas-election.com/reports/">Texas Election Results</a>');
+        map.attributionControl.addAttribution('County Data &copy; <a href="https://www.bexar.org/1717/Voter-Precincts">Bexar Election Results</a>');
       
       
 
