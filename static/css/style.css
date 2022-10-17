@@ -119,6 +119,14 @@ ul {
   border-radius: 50%;
 }
 
+.bexar-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  outline: #FFFFFF solid;
+}
+
 .notification { position: relative; }
 
 .notification::before {
