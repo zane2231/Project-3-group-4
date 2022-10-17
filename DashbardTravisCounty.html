@@ -211,7 +211,7 @@
     
       info.update = function (props) {
         this._div.innerHTML = '<h4>Texas Counties</h4>' +  (props ?
-          '<b>' + props.CNTY_NM + '</b><br />' + props.Travis_County_V1_Rep+ ' REP Votes, '+ props.Travis_County_V1_Dem + ' DEM Votes ' : 'Hover over a state');
+          '<b>' + props.name + '</b><br />' + props.Travis_County_V1_Rep+ ' REP Votes, '+ props.Travis_County_V1_Dem + ' DEM Votes ' : 'Hover over a state');
       };
     
       info.addTo(map);
