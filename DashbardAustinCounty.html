@@ -208,8 +208,8 @@
         };
       
         info.update = function (props) {
-          this._div.innerHTML = '<h4>Austin Precinct</h4>' +  (props ?
-            '<b>' + props.CNTY_NM + '</b><br />' + props.Texas_Counties_V3_Final_REPUBLICAN+ ' REP Votes, '+ props.Texas_Counties_V3_Final_DEMOCRATIC + ' DEM Votes ' : 'move cursor on precincts');
+          this._div.innerHTML = '<h4>Precincts</h4>' +  (props ?
+            '<b>' + props.CNTY_NM + '</b><br />' + props.Texas_Counties_V3_Final_REPUBLICAN+ ' REP Votes, '+ props.Texas_Counties_V3_Final_DEMOCRATIC + ' DEM Votes ' : 'Move Cursor over precinct');
         };
       
         info.addTo(map);
