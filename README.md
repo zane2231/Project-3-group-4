@@ -2,7 +2,7 @@
 <h2> <p align="center">County Data <a href="https://zane2231.github.io/Project-3-group-4/DashbardTexasCounty.html">WEBSITE</a><h2>
 Proposal: We are making a database for Texans to reference for information on voting statistics in Texas. This database will include a map with voting locations and general stats about Texas voters. 
 
-Target Audience: Texan voters, educational institutions, lawmakers.
+Target Audience: Texan voters, educational institutions, lawmakers, federal agencies
 
 Team Members: Sunny Bhatt, Kristal Conception, Zane Rios, Chloe Valverde
 
@@ -12,18 +12,16 @@ What/Why: Texas is an immense state full of varying ideologies and people. With 
 
 At the outset, we had to find many trusted sources since political data tends to be faked. While they were not hard to find, it was tricky to gather the data in a concise way since there was an overabundance of data that we did not actually need. Interestingly, one of the datasets was obtained by one of our team members contacting the secretary of state and they agreed to share some of the voting datasets with us. 
 
-After the datasets were acquired, we quickly went to cleaning and sorting them through jupyter notebook, pgadmin, and leaflet for proper graphing and plotting. Once this was done, we went to another source called __ to map out the points onto a map of Texas.  This shows that __. In doing this we learned that not only is Texas __, but it also __. 
-
+After the datasets were acquired, we quickly went to cleaning and sorting them through jupyter notebook, pgadmin, and leaflet for proper graphing and plotting. Once this was done, we went to another source called Carto to map out the points onto a map of Texas.  This website was able to accurately render the voting data into a graph for later use. 
+ 
 On the other side of this, a dashboard was being made to store the created graphs into. 
-This was done through This dashboard shows that the __. **talk about the graphs shown**. **talk about the statistics**.
+This was done through Github. Following this, the dashboard was loaded onto a platform called Heroku, through this platform, the dashboard is able to go live for anyone to see it and to make informed choices through it. 
 
-Following this, the dashboard was loaded onto a platform called Heroku, through this platform, the dashboard is able to go live for anyone to see it and to make informed choices through it. **talk about process**
-
-Finally at the end of this project we were able to gather that Texas _.
+Finally at the end of this project we were able to gather that even though the political map shows Texas as a very red state, there are nearly an equal amount of Democratic and Republican voters. In addition to this, the urban sections of Texas tend to vote democratic and the rural sections tend to vote Republican.
 
 Personal insights/learned: Throughout this project we have learned an ample amount of data relating to Texas voting statistics. For one, while the data is stored in mass excel forms, it is not very clean for the average reader to understand. It must be redone in order to show a clear and concise retelling of the data.
 
-created a custom map using maptile to ouline maps for Austin Precinct. Added fullscreen function using leaflet pugin. using QGIS software to merge the geojson data with csv  and create a new geojson to hold all data for map.used plotly to represtent bar chart and pie chart. used chloropath leaflet method to show colors and using numbers as a varible to set color. creating an html grid to hold all data in its own classes. 
+We created a custom map using maptile to ouline maps for Austin Precinct. Added fullscreen function using leaflet pugin. We then used QGIS software to merge the geojson data with csv and created a new geojson to hold all data for the map After this, we used plotly to represtent bar chart and pie chart and used a chloropath leaflet method to show colors. Numbers were used as a varible to set color. And finally creating an html grid to hold all data in its own classes. 
 <br></br>
 
 
