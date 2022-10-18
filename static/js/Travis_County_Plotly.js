@@ -1349,7 +1349,7 @@ const pieChartData = [{
 const pieChartLayout = {
   paper_bgcolor: '#172042',
   plot_bgcolor: '#172042',
-  piecolorway: ['#2e4fd2', '#c13232'],
+  piecolorway: ['#c13232', '#2e4fd2'],
   showlegend: true,
   
 //  title:'Texas Votes',
