@@ -1342,14 +1342,14 @@ Plotly.newPlot('barChart', barChartData, layout, config);
 //Pie Chart 
 const pieChartData = [{
   values: [160227, 430676],
-  labels: ['Rep', 'DEM'],
+  labels: ['REP', 'DEM'],
   type: 'pie'
 }];
 
 const pieChartLayout = {
   paper_bgcolor: '#172042',
   plot_bgcolor: '#172042',
-  piecolorway: ['#c13232', '#2e4fd2'],
+  piecolorway: ['#2e4fd2', '#c13232'],
   showlegend: true,
   
 //  title:'Texas Votes',
