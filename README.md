@@ -1,9 +1,8 @@
 <h1> <p align="center">  Texas Voting Database  </p> </h1>
-<h2> <p align="center">County Data <a href="https://zane2231.github.io/Project-3-group-4/DashbardTexasCounty.html">WEBSITE</a><h2>
-<h3> Proposal: </h3> Texas is an immense state full of varying ideologies and people. With this vast amount of space, it is paramount to know where you can vote. It is also good to know where your area stands politically, especially if you are deciding to move to an area where it would not suit your standards. We are making a database for Texans to reference for information on voting statistics in Texas. This database will include a map with voting locations and general stats about Texas voters. </h3>
+<h2> <p align="center">Texas Voting Dashboard: <a href="https://zane2231.github.io/Project-3-group-4/DashbardTexasCounty.html">CLICK HERE</a></h2>
+<h3> Proposal: </h3> Texas is an immense state full of varying ideologies and people. With this vast amount of space, it is paramount to know where you can vote. It is also good to know where your area stands politically, especially if you are deciding to move to an area where it would not suit your standards. We are making a database for Texans to reference for information on voting statistics in Texas. This database will include a map with voting locations and general stats about Texas voters.
 
-<p></p>
-(Note: Due to unavailability of data and time limitation with the project the team will focus on overall results of 2020 elections for Texas and study trends of voting behaviour in specific counties. We will drop the plan to map voting locations as the polling booth data is not available for all counties. In additon to that we did not find information for mapping all Texas counties so we decided to focus on 2 major counties with urban areas and manually plot a pecinct map for a smaller county with rural population.)
+<h6> (Note: Due to unavailability of data and time limitation with the project the team will focus on overall results of 2020 elections for Texas and study trends of voting behaviour in specific counties. We will drop the plan to map voting locations as the polling booth data is not available for all counties. In additon to that we did not find information for mapping all Texas counties so we decided to focus on 2 major counties with urban areas and manually plot a pecinct map for a smaller county with rural population.)</h6>
 
 <h4>Target Audience: Texan voters, educational institutions, lawmakers, federal agencies </h4>
 
