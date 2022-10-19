@@ -1,0 +1,14 @@
+Project Proposal
+Project Title: Texas Voting Database
+Team Members: Sunny Bhatt, Chloe Valverde, Zane Rios, Kristal Concepcion
+Project Description: We are making a database for Texans to reference for information on Voting in Texas. This database will include a map with voting locations and general stats about Texas voters
+Research Questions to answer
+How many new voters registered this year?
+Distribute and compare data for age, gender, race etc.
+Where are all the polling booths (location based study)
+How many people voting at polling booths versus mailing in votes
+Red v Blue map based by counties
+Datasets to be used
+https://www.votetexas.gov/voting/where.html
+https://texaspolitics.utexas.edu/archive/html/vce/features/0302_02/demographics.html
+https://www.pewresearch.org/religion/religious-landscape-study/state/texas/party-affiliation/
