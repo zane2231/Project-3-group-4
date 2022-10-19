@@ -2,6 +2,8 @@
 <h2> <p align="center">County Data <a href="https://zane2231.github.io/Project-3-group-4/DashbardTexasCounty.html">WEBSITE</a><h2>
 Proposal: We are making a database for Texans to reference for information on voting statistics in Texas. This database will include a map with voting locations and general stats about Texas voters. 
 
+(Note: Due to unavailability of data and time limitation with the project the team will focus on overall results of 2020 elections for Texas and study trends of voting behaviour in specific counties. We will drop the plan to map voting locations as the polling booth data is not available for all counties. In additon to that we did not find information for mapping all Texas counties so we decided to focus on 2 major counties with urban areas and manually plot a pecinct map for a smaller county with rural population.)
+
 <h3>Target Audience: Texan voters, educational institutions, lawmakers, federal agencies
 
 Team Members: Sunny Bhatt, Kristal Conception, Zane Rios, Chloe Valverde
